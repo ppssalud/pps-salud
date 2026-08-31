@@ -28,8 +28,14 @@
     .feature { background:white; padding:24px; border-radius:22px; box-shadow:0 10px 30px rgba(0,0,0,.05); }
     .feature h3 { margin:0 0 8px; color:var(--navy); font-size:22px; }
     .feature p { margin:0; font-size:16px; }
+    .social-gallery { margin-top:34px; }
+    .social-gallery h2 { color:var(--navy); font-size:34px; margin:0 0 10px; }
+    .social-gallery p { margin:0 0 22px; font-size:18px; }
+    .story-grid { display:grid; grid-template-columns: repeat(4,1fr); gap:16px; }
+    .story-grid img { width:100%; border-radius:22px; box-shadow:0 14px 38px rgba(18,54,95,.16); background:white; }
     footer { max-width:1080px; margin:auto; padding:20px; font-size:13px; color:#6b7680; }
-    @media (max-width:850px){ .hero{grid-template-columns:1fr; padding-top:30px;} .grid{grid-template-columns:1fr;} .cta.secondary{margin-left:0;} }
+    @media (max-width:850px){ .hero{grid-template-columns:1fr; padding-top:30px;} .grid{grid-template-columns:1fr;} .story-grid{grid-template-columns:repeat(2,1fr);} .cta.secondary{margin-left:0;} }
+    @media (max-width:520px){ .story-grid{grid-template-columns:1fr;} }
   </style>
 </head>
 <body>
@@ -60,6 +66,16 @@
       <div class="feature"><h3>Para consultas</h3><p>Lleva ordenados antecedentes, estudios y medicamentos importantes.</p></div>
       <div class="feature"><h3>Para familia</h3><p>Ayuda a cuidar la información de personas cercanas.</p></div>
       <div class="feature"><h3>Para estudios</h3><p>Guarda resultados, fotos, enlaces, usuarios, contraseñas y dirección de clínica.</p></div>
+    </div>
+    <div class="social-gallery">
+      <h2>Organiza tu salud en un solo lugar</h2>
+      <p>Funciones principales de PPS Salud para expediente, medicamentos, estudios y cuidado familiar.</p>
+      <div class="story-grid">
+        <img src="estado-expediente.png" alt="PPS Salud expediente médico">
+        <img src="estado-medicamentos.png" alt="PPS Salud medicamentos y recetas">
+        <img src="estado-estudios.png" alt="PPS Salud estudios y resultados">
+        <img src="estado-familia.png" alt="PPS Salud familia y cuidadores">
+      </div>
     </div>
   </section>
   <footer>
