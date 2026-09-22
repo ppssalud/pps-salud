@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /gracias.html
 
-Sitemap: https://ppssalud.github.io/pps-salud/sitemap.xml
+Sitemap: https://ppssalud.com/sitemap.xml
